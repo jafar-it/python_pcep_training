@@ -1,0 +1,7 @@
+Create a list of tuples. Each tuple should have the details of 1 student. Each student should have name, marks and grade. Sort the list of tuples in the ascending manner based on marks. Use namedtuple. Print only those students with Grade A and B
+
+You have two sets: enrolled = {"Alice", "Bob", "Charlie", "Diana"} and paid = {"Bob", "Charlie", "Eve"}. Find: (a) students enrolled but not paid, (b) students who paid but aren't enrolled, (c) students who are both enrolled and paid.
+
+Build an inverted index — given docs = {"doc1": "python data science", "doc2": "python web development", "doc3": "data analysis r python"}, create a dict where each word maps to the list of docs it appears in.
+
+Given a list of transaction records [{"id":1,"type":"credit","amount":500}, {"id":2,"type":"debit","amount":200}, {"id":3,"type":"credit","amount":800}, {"id":4,"type":"debit","amount":300}] — use dict iteration to calculate total credits and total debits separately.
