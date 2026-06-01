@@ -1,0 +1,15 @@
+Build a notification system with multiple channels.
+
+Base class Notification with: recipient, subject, body, timestamp (auto-set), send() raises NotImplementedError
+Subclass EmailNotification with additional sender_email, overrides send() to print a formatted email
+Subclass SMSNotification with phone_number, overrides send(). SMS body truncated to 160 chars
+Subclass PushNotification with device_token, add badge_count attribute
+Mixin RetryMixin: adds send_with_retry(max_attempts=3) that calls send() and retries on exception
+Create ReliableEmailNotification(RetryMixin, EmailNotification)
+
+
+Build a learning management system with the following classes:
+1. Instructors
+2. Students
+3. Courses
+Use lists to store the test data. Create a program to handle student enrollment for courses, list courses and list students per course. Use dict for enrollment. Add exceptions, use magic methods.

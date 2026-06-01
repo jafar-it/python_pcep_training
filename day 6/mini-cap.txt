@@ -1,0 +1,10 @@
+Build a mini task management system that combines everything learned.
+
+User class: id, name, email, role (developer/manager), assigned_tasks list
+Task class: auto-id, title, description, status (todo/in_progress/done), priority (1-5), assignee (User or None), due_date, tags list. Status transitions must be valid (todo→in_progress→done). Task supports __lt__ for priority comparison.
+Project class: name, manager (User), tasks list. Methods: add_task(), assign_task(task_id, user), get_tasks_by_status(), get_overdue_tasks(), summary() property
+Mixin AuditMixin: tracks created_at, updated_at, change_log list. Method log_change(field, old, new)
+Make Task inherit from AuditMixin and log all status/assignee changes
+Demonstrate: create a project, add 5+ tasks, assign them, transition statuses, print summary
+Add exceptions where appropriate
+
