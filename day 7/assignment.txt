@@ -1,0 +1,35 @@
+Write a program to read from a text file and count how many times each word appears (case-insensitive). It should also write the top 10 most common words with the count into a new file.
+
+You have 2 csv files: sales_q1.csv and sales_q2.csv. The files have 3 columns each: product, units_sold, revenue. Merge them into a single csv. Add a custom column: quarter which will inform which csv the row is taken from. Summarize the total revenue per product across both quarters
+
+Given a json structure representing a school, extract all the students who have failed in any subject (score < 50). Print the name, subject and score to a file as json
+test_data: 
+school = {
+    "school": "Lakeside Academy",
+    "departments": [
+        {
+            "name": "Science",
+            "classes": [
+                {
+                    "class_name": "10A",
+                    "students": [
+                        {"name": "Alice", "scores": {"Physics": 82, "Chemistry": 45}},
+                        {"name": "Bob",   "scores": {"Physics": 67, "Chemistry": 71}},
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arts",
+            "classes": [
+                {
+                    "class_name": "11B",
+                    "students": [
+                        {"name": "Carol", "scores": {"History": 48, "English": 90}},
+                        {"name": "Dave",  "scores": {"History": 35, "English": 42}},
+                    ]
+                }
+            ]
+        }
+    ]
+}
