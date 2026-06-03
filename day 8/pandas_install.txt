@@ -1,0 +1,22 @@
+1. Check if pip is installed:
+pip --version
+2. check in this location if pip is available:
+c:/users/<your username>/AppData/Local/Programs/Python3x/Scripts
+3. If available add to environment variables
+4. test if available
+
+5. Run this to install pandas
+pip install pandas
+6. Run this to check version of pandas in the command prompt:
+py -c "import pandas as pd; print(pd.__version__)"
+
+to work with excel
+pip install openpyxl
+
+to work with mssql
+pip install pyodbc
+
+to work with mysql
+pip install mysql-connector-python
+
+

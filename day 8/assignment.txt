@@ -1,0 +1,7 @@
+Create a dataframe with 6 students: name, subject (Maths, Science, Social, English), marks
+1. Display the Dataframe and describe
+2. Show only name and marks
+3. Add a grade column: A >= 85, B >= 70, C >= 50, F < 50
+4. Sort the dataframe in descending order
+5. Set the student name as the index for the df
+
