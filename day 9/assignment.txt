@@ -1,0 +1,1 @@
+Create a bookstore database with authors and books. Insert records for both the table from csv files. Perform all crud operations on the database. Make it function and menu based

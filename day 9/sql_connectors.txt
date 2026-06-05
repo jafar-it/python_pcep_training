@@ -1,0 +1,20 @@
+# mysql connector
+import mysql.connector
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="username",
+    password="password"
+    database="database name"
+)
+
+# pyodbc - driver for mssql in python
+import pyodbc
+
+conn = pyodbc.connect(
+    "DRIVER={odbc driver for sql server};"
+    "SERVER=localhost;"
+    "DATABASE=your_db;"
+    "Trusted_Connection=yes;" -- uses window credentials
+    "TrustServerCertificate= yes;"
+)

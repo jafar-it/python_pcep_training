@@ -1,0 +1,19 @@
+Architectural style
+Not a protocol
+
+6 constraints of REST
+1. Client - Server
+2. Stateless
+3. Cacheable
+4. Uniform Interface
+5. Layered System
+6. Code on Demand (optional)
+
+HTTP methods:
+GET, PUT, POST, DELETE, PATCH, HEAD, OPTIONAL
+
+HTTP Status Codes
+200 series, 400 series, 500 series
+
+# install the requests library
+pip install requests
